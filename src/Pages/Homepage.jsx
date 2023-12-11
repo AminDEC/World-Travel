@@ -1,3 +1,12 @@
-export default function Homepage() {
-  return <div>Homepage</div>;
+import PageNav from "../components/PageNav";
+
+function Homepage() {
+  return (
+    <div>
+      <PageNav />
+      <h1>Homepage</h1>
+    </div>
+  );
 }
+
+export default Homepage;
